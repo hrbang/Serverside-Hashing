@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .title {
+                text-align: center;
+                line-height: 1.15;
+                font-size: 4rem;
+
+                span {
+                    color: #0070f3;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .hashing-container {
+            .hashing-content {
+                .hashing-form {
+                    .hashing-info {
+                    }
+                    form {
+                        .form-group {
+                            label {
+                                font-size: 16px;
+                                opacity: 0.5;
+                                display: block;
+                                margin-bottom: 6px;
+                            }
+                            input {
+                                width: 100%;
+                                padding: 10px 0px 10px 10px;
+                                font-size: 16px;
+                                border: 2px solid rgba(0, 0, 0, 0.07);
+                                border-radius: 5px;
+                                color: #181818;
+                                transition: all 150ms ease-in-out;
+                                font-family: "Work Sans", sans-serif;
+
+                                &:active,
+                                &:focus,
+                                &:focus-visible {
+                                    border: 2px solid #0070f3;
+                                    box-shadow: none !important;
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
