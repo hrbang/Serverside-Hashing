@@ -9,7 +9,6 @@ export default function Hashing() {
 
     const handleTextInput = async (e) => {
         let value = e.target.value
-
         let result = ""
 
         if (algorithm == "sha1") {
@@ -23,14 +22,11 @@ export default function Hashing() {
         }
 
         setOutput(result)
-
         setTextInput(value)
     }
 
     const handleAlgorithmChange = async (e) => {
-
         let value = e.target.value;
-    
         let result = '';
     
         if (text_input) {
@@ -50,7 +46,6 @@ export default function Hashing() {
         }
     
         setAlgorithm(value);
-    
         setOutput(result);
     }
 
