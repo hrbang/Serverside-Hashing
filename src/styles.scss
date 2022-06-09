@@ -67,6 +67,26 @@ body {
                         }
                     }
                 }
+
+                .hashed-output {
+                    .hashed-algorithm-container {
+                        width: 100%;
+                        max-height: 300px;
+                        border: 2px solid rgba(0, 0, 0, 0.07);
+                        border-radius: 5px;
+                        color: #181818;
+                        position: relative;
+                        padding: 20px;
+                        
+
+                        .hashed-algorithm-text {
+                          display: inline-block;
+                          overflow-wrap: break-word;
+                          inline-size: 100%;
+                          margin: 0;
+                        }
+                    }
+                }
             }
         }
     }
